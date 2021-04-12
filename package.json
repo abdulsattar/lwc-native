@@ -31,11 +31,18 @@
   },
   "homepage": "https://github.com/NativeScript/nativescript-app-templates",
   "dependencies": {
+    "@lwc/engine-core": "^1.17.6",
+    "@lwc/module-resolver": "^1.17.6",
+    "@lwc/shared": "^1.17.6",
     "@nativescript/core": "~8.0.0",
-    "@nativescript/theme": "~3.0.1"
+    "@nativescript/theme": "~3.0.1",
+    "lwc": "^1.17.6"
   },
   "devDependencies": {
-    "@nativescript/webpack": "5.0.0-beta.2"
+    "@nativescript/android": "8.0.0",
+    "@nativescript/ios": "8.0.0",
+    "@nativescript/webpack": "5.0.0-beta.2",
+    "lwc-webpack-plugin": "file:/Users/abdulsattarmohammed/create-lwc-app/packages/lwc-webpack-plugin"
   },
   "private": "true",
   "readme": "NativeScript Application"
